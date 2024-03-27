@@ -1,0 +1,57 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: #202124;
+    color: #bdc1c6;
+    font-family: Arial, sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 22px;
+}
+
+.header-buttons {
+    padding: 8px;
+    font-size: .9em;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 195px; 
+}
+
+#search-bar-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#search-bar {
+    position: absolute;
+    margin-top: 28px;
+    height: 43px;
+    width: 580px;
+    background-color: #202124;
+    border: 1px solid rgb(100, 101, 105);
+    border-radius: 30px;
+}
+
+#search-icon {
+    z-index: 1;
+    margin-top: 43px;
+    margin-right: 480px;
+    width: 17px;
+    height: 17px;
+}
+
+.google-icons {
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+}
