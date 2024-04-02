@@ -1,3 +1,15 @@
+@media only screen and (max-width: 767px) {
+    #search-bar {
+        max-width: 90%;
+    }
+
+    #icons {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+   
+}
+
 body, html {
     padding: 0;
     margin: 0;
@@ -85,25 +97,36 @@ header {
     border: none;
 }
 
+#icons {
+    width: 600px;
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+
 
 #search-icon {
     z-index: 1;
-    margin-top: 43px;
-    margin-right: 460px;
     width: 17px;
     height: 17px;
+    margin-left: 5%;
 }
 
 .google-icons {
+    display: flex;
     z-index: 1;
-    width: 25px;
-    height: 25px;
-    margin-top: 40px;
-    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5%;
+}
+
+.google-icons > svg {
 }
 
 #search-buttons-container {
-    margin-top: 30px;
+    margin-top: 30px;;
     border: none;
     display: flex;
     justify-content: center;
